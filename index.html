@@ -44,7 +44,7 @@
 
   var popup = new mapboxgl.Popup({ offset: [0, -15] })
     .setLngLat(feature.geometry.coordinates)
-    .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p><img src="/images/' + feature.properties.image + '"" height="300">')
+    .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p><img src="/images/' + feature.properties.image + '"" height="300"><p><a href="https://www.w3schools.com/html/">View location on W3W</a></p>')
     .setLngLat(feature.geometry.coordinates)
     .addTo(map);
 });
