@@ -1,0 +1,309 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Throgmorton Avenue",
+        "image": "Throgmorton.JPG",
+        "description": "Minor damage to the road sign which has been repaired. Splinters from a bomb that fell on the adjacent Carpenters Hall in 1941."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.086007,
+          51.516847
+        ],
+        "type": "Point"
+      },
+      "id": "1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "St Paul's Cathedral",
+        "image": "StPauls.JPG",
+        "description": "Minor splintering on the Eastern wall of the Cathedral. Visible from the churchyard garden."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.09742,
+          51.513988
+        ],
+        "type": "Point"
+      },
+      "id": "2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "St Bartholomew's Hospital",
+        "image": "StBarts.JPG",
+        "description": "Extensive damage to the wall facing Smithfield Square. Caused by Zeppelin raids on 8th September 1915."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.100666,
+          51.518153
+        ],
+        "type": "Point"
+      },
+      "id": "3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mansell Street",
+        "image": "Mansell.JPG",
+        "description": "Splinter damage to the brickwork on the disused railway viaduct. Caused by WW2 bomb."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.072599,
+          51.511123
+        ],
+        "type": "Point"
+      },
+      "id": "4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Lincoln's Inn - Old Square",
+        "image": "LincolnOld.JPG",
+        "description": "Damage to the chapel walls caused by a bomb dropped during the Zeppelin raid of 13th October 1915 at 9.25pm."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.113194,
+          51.516639
+        ],
+        "type": "Point"
+      },
+      "id": "5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Lincoln's Inn - Stone Buildings",
+        "image": "LincolnStone.JPG",
+        "description": "Extensive splinter damage to buildings on both sides of the road. Sustained during Gotha raid on 18th December 1917."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.11375,
+          51.517455
+        ],
+        "type": "Point"
+      },
+      "id": "6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Monument",
+        "image": "Monument.JPG",
+        "description": "Minor damage and repairs to the Monument to the Great Fire of London. Sustained during WW2 blitz."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.086014,
+          51.510164
+        ],
+        "type": "Point"
+      },
+      "id": "7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Portugal Street",
+        "image": "Portugal.JPG",
+        "description": "Sign on the former head office of WH Smith damaged during a raid on 10th October 1940."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.115656,
+          51.514994
+        ],
+        "type": "Point"
+      },
+      "id": "8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "St Clement Danes Church",
+        "image": "StClement.JPG",
+        "description": "Extensive damage to the NE wall of St Clement Danes, the RAF church. Caused during WW2."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.113704,
+          51.513208
+        ],
+        "type": "Point"
+      },
+      "id": "9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Grant Museum",
+        "image": "Grant.JPG",
+        "description": "Grant Zoology Museum (part of UCL). Bomb damage repairs to the stonework. Visible from Gower Street."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.134183,
+          51.523777
+        ],
+        "type": "Point"
+      },
+      "id": "10"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cleopatra's Needle",
+        "image": "Cleopatra.JPG",
+        "description": "Damage to the base of Cleopatra's needle and to the bronze statues. Caused during the Gotha raids of WW1."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.120405,
+          51.508458
+        ],
+        "type": "Point"
+      },
+      "id": "11"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Lord Kitchener's Statue",
+        "image": "Kitchener.JPG",
+        "description": "South end of Horse Guards Parade. Minor damage to the base of the statue and the screen behind."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.128024,
+          51.503889
+        ],
+        "type": "Point"
+      },
+      "id": "12"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Guards Memorial",
+        "image": "Guards.JPG",
+        "description": "Western end of Horse Guards Parade. WWI war memorial damaged by WW2 bomb."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.129451,
+          51.504498
+        ],
+        "type": "Point"
+      },
+      "id": "13"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Edward VII statue",
+        "image": "Edward.JPG",
+        "description": "Extensive damage on the Eastern side of the plinth. Sustained during WW2."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.132062,
+          51.506721
+        ],
+        "type": "Point"
+      },
+      "id": "14"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Tate Britain",
+        "image": "Tate.JPG",
+        "description": "Extensive damage on the Western side of the Tate Britain. Sustained during WW2."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.128036,
+          51.490747
+        ],
+        "type": "Point"
+      },
+      "id": "15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "V&A Museum, South Kensington",
+        "image": "VA.JPG",
+        "description": "Extensive damage to the V&A museum along Exhibition Road. Sustained during WW2."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.173595,
+          51.496774
+        ],
+        "type": "Point"
+      },
+      "id": "16"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Purdey Shop, Mayfair",
+        "image": "Purdey.JPG",
+        "description": "Moderate damage to the outside of James Purdey & Sons gunsmiths. Sustained in April 1941."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.151823,
+          51.509447
+        ],
+        "type": "Point"
+      },
+      "id": "17"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "London Street, Paddington",
+        "image": "Paddington.JPG",
+        "description": "Minor WW2 blitz damage to a brick wall on London Street in Paddington."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.17583,
+          51.516891
+        ],
+        "type": "Point"
+      },
+      "id": "18"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kew Bridge",
+        "image": "Kew.JPG",
+        "description": "Damage to the stonework on the central span of Kew Bridge. Sustained during WW2."
+      },
+      "geometry": {
+        "coordinates": [
+          -0.287544,
+          51.487067
+        ],
+        "type": "Point"
+      },
+      "id": "19"
+    }
+  ],
+  "type": "FeatureCollection"
+}
