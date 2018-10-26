@@ -15,23 +15,9 @@
         background-color: black;
       }
 
-      #map {
-        position: fixed;
-        top: 1;
-        bottom: 0;
-        width: 100%;
-        height: 93%;
-      }
-
+      /* Set header height */
       header {
         height: 100px;
-      }
-
-      .container {
-        /* border: 1px dashed blue; */
-      }
-      .flex > div {
-        /* border: 1px solid red; */
       }
 
       .legend > img {
@@ -53,41 +39,56 @@
       </div>
     </header>
 
-    <main class="">
-      <div id='map'></div>
+    <main class="relative">
+      <section id="map" class="h-screen"></section>
 
-      <div id="about">
-        about text...
-      </div>
+      <section id="about" class="flex text-center text-white h-screen my-6">
+        <div class="flex-1">
+          <p>about text...</p>
+        </div>
+
+        <div class="flex-1">
+          <p>about text...</p>
+        </div>
+      </section>
     </main>
 
 
     <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZ2RzY2FyIiwiYSI6ImNqbjF0MnE0eDFuZ2EzdnFvd2hydGpyY2QifQ.hg9N-Ewzpbzpzfc38ZLVcg'; // replace this with your access token
-    var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/gdscar/cjn39hi9i2hyv2rs3shsddu15', // replace this with my style URL
-      center: [-0.158, 51.517],
-      zoom: 11.71
-    });
-    // code from the next step will go here
-    map.on('click', function(e) {
-  var features = map.queryRenderedFeatures(e.point, {
-    layers: ['blitz4'] // replace this with the name of my layer
-  });
+      mapboxgl.accessToken = 'pk.eyJ1IjoiZ2RzY2FyIiwiYSI6ImNqbjF0MnE0eDFuZ2EzdnFvd2hydGpyY2QifQ.hg9N-Ewzpbzpzfc38ZLVcg'; // replace this with your access token
 
-  if (!features.length) {
-    return;
-  }
+      var map = new mapboxgl.Map({
+        container: 'map',
+        scrollZoom: false,
+        style: 'mapbox://styles/gdscar/cjn39hi9i2hyv2rs3shsddu15', // replace this with my style URL
+        center: [-0.158, 51.517],
+        zoom: 11.71
+      });
 
-  var feature = features[0];
+      // code from the next step will go here
+      map.on('click', function(e) {
+        var features = map.queryRenderedFeatures(e.point, {
+          layers: ['blitz4'] // replace this with the name of my layer
+        });
 
-  var popup = new mapboxgl.Popup({ offset: [0, -15] })
-    .setLngLat(feature.geometry.coordinates)
-    .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p><img src="/images/' + feature.properties.image + '"" height="300">')
-    .setLngLat(feature.geometry.coordinates)
-    .addTo(map);
-  });
+        if (! Array.isArray(features) || features.length === 0) {
+          return;
+        }
+
+        var feature = features[0];
+        var markup = '<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p><img src="images/' + feature.properties.image + '"" style="width: 300px; height: auto;">';
+
+
+        var popup = new mapboxgl.Popup({
+          offset: [0, -15]
+        });
+
+        popup
+          .setLngLat(feature.geometry.coordinates)
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML(markup)
+          .addTo(map);
+      });
     </script>
   </body>
 </html>
